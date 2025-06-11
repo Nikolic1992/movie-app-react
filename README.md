@@ -1,12 +1,37 @@
-# React + Vite
+# 🎬 Movie App
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+[![React](https://img.shields.io/badge/React-18.x-blue?logo=react)](https://reactjs.org/)
+[![Tailwind CSS](https://img.shields.io/badge/TailwindCSS-3.x-38B2AC?logo=tailwindcss)](https://tailwindcss.com/)
+[![Appwrite](https://img.shields.io/badge/Appwrite-Server-E83842?logo=appwrite)](https://appwrite.io/)
+[![License](https://img.shields.io/badge/License-MIT-green.svg)](https://opensource.org/licenses/MIT)
 
-Currently, two official plugins are available:
+A clean and modern movie search app built with **React**, **Tailwind CSS**, **Appwrite**, and **TMDB API**.  
+Users can search for movies, explore trending titles, and enjoy smooth user experience with loading spinners.
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+---
 
-## Expanding the ESLint configuration
+## 🚀 Features
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+- 🔍 Search movies via **TMDB API**
+- 🔥 Display trending movies (fetched from **Appwrite** database)
+- 🎯 Debounced search to optimize API calls
+- 🚧 Error handling with user-friendly messages
+- 🖥️ Fully responsive UI with **Tailwind CSS**
+- ⏳ Loading spinners while fetching data
+- ⚙️ Environment variables for secure API integration
+
+---
+
+## 🛠 Tech Stack
+
+- [React (Vite)](https://vitejs.dev/)
+- [Tailwind CSS](https://tailwindcss.com/)
+- [Appwrite](https://appwrite.io/)
+- [TMDB API](https://www.themoviedb.org/documentation/api)
+- [React-use](https://github.com/streamich/react-use) (Debounce hook)
+
+---
+
+## 🔑 Live Demo
+
+🌐 [https://movie-app-react-plum.vercel.app/](https://movie-app-react-plum.vercel.app/)
